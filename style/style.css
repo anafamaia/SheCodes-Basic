@@ -1,0 +1,81 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+h1 {
+  text-align: center;
+  color: #ef887b;
+}
+h2 {
+  text-align: center;
+  border: 1px solid #ef887b;
+  padding: 20px;
+  font-size: 21px;
+  border-radius: 8px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+p {
+  line-height: 1.5px;
+  font-size: 12px;
+  margin: 50px;
+  text-align: center;
+  display: block;
+}
+h3 {
+  text-align: center;
+}
+.learn-more {
+  display: inline;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #ef887b;
+  font-size: 15px;
+}
+.learn-more:hover {
+  text-decoration: underline;
+  color: #ef887b;
+}
+div {
+  display: block;
+  text-align: center;
+}
+button {
+  display: block;
+  margin: 30px auto;
+  background: #ef887b;
+  color: white;
+  font-size: 18px;
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  transition: all 150ms ease-in-out;
+}
+button:hover {
+  background: white;
+  color: #ef887b;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.footer {
+  text-align: center;
+  font-size: small;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 60px;
+}
+.profile {
+  text-decoration: none;
+  color: #ef887b;
+}
+.profile:hover {
+  text-decoration: underline;
+}
